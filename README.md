@@ -4,7 +4,7 @@ Sistema de Gestion de Registro, Reportes y Pagos
 
 Colaboradores:
 Joel Zapana
-Nilda Espinoiza
+Nilda Espinoza
 Carmen Ochochoque
 
 Steps
