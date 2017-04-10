@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+        body{
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .login {
+            max-width: 330px;
+            padding: 15px;
+            margin: 0 auto;
+        }
+
+        #sha{
+            max-width: 340px;
+            -webkit-box-shadow: 0px 0px 18px 0px rgba(48,48,50,0,48);
+            -moz-box-shadow: 0px 0px 18px 0px rgba(48,48,50,0,48);
+            box-shadow: 0px 0px 18px 0px rgba(48,48,50,0,48);
+            border-radius: 6%;
+        }
+
+        #avatar{
+            width: 96px;
+            height: 96px;
+            margin: 0px auto 10px;
+            display: block;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container well" id="sha">
+        <div class="row">
+            <div class="col-xs-12">
+                <img src="multimedia/MazterLeo.png" class="img-responsive" id="avatar" />
+            </div>
+        </div>
+        <form class="login" action="index.html">
+            <div>
+                <input type="email" class="form-control" placeholder="E-mail" name="email" required autofocus />
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="contraseña" name="pass" required />
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar sesion</button>
+            <div class="checkbox">
+                <label class="checkbox">
+                    <input type="checkbox" value="1" name="remember" />No cerrar sesion
+                    <p class="help-block"><a href="#">No puedes acceder?</a></p>
+                    <p class="help-block"><a href="Registro.html">Registrarse</a></p>
+                </label>
+            </div>
+        </form>
+
+    </div>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular/angular.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+</body>
+</html>
